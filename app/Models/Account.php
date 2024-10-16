@@ -21,7 +21,7 @@ class Account extends Model
         'CreatedBy',
         'UpdatedBy',
 		'iid',
-    'name',
+    
     ];
 	
 	function SaveAccountDetails($AccountDetail, $AccountCstmDetail){
