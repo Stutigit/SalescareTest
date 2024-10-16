@@ -5,7 +5,7 @@
         </x-slot>
 
         <x-validation-errors class="mb-4" />
-
+<h1>Hiiii<h1>
         @session('status')
             <div class="mb-4 font-medium text-sm text-green-600">
                 {{ $value }}
