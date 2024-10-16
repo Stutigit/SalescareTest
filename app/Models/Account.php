@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use DB;
 use Auth;
 
+
 class Account extends Model
 {
     use HasFactory;
@@ -20,6 +21,7 @@ class Account extends Model
         'CreatedBy',
         'UpdatedBy',
 		'iid',
+    'name',
     ];
 	
 	function SaveAccountDetails($AccountDetail, $AccountCstmDetail){
