@@ -31,7 +31,7 @@ class User extends Authenticatable
         'email',
         'password',
 
-    'nadir'
+    'naveen sir'
     
         
     
